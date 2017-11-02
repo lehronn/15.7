@@ -1,17 +1,21 @@
 body {
+  color: #333;
   text-align: center;
-  background-color: gray; }
+  background-color: gray;
+}
 
 a, button {
   font-family: monospace;
   font-size: 3em;
   text-decoration: none;
   padding: 25px;
-  color: white; }
+  color: #333;
+}
 
 .controls {
   position: relative;
-  top: 40vh; }
+  top: 40vh;
+}
 
 .stopwatch {
   font-family: monospace;
@@ -22,6 +26,7 @@ a, button {
   background-color: black;
   border: 5px black solid;
   border-radius: 25px;
-  width: auto; }
+  width: auto;
+}
 
 /*# sourceMappingURL=styles.css.map */
