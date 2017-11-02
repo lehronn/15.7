@@ -38,11 +38,11 @@ class Stopwatch extends React.Component {
   }
 
   calculate() {
-    let{
-			miliseconds,
-			seconds,
-			minutes
-		} = this.state;
+    let {
+      miliseconds,
+      seconds,
+      minutes
+    } = this.state;
 
     miliseconds += 1;
     if (miliseconds >= 100) {
